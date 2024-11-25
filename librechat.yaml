@@ -191,7 +191,8 @@ endpoints:
       # recommended environment variables:
       # Known issue: you should not use `OPENROUTER_API_KEY` as it will then override the `openAI` endpoint to use OpenRouter as well.
       apiKey: 'kkdelavaca'
-      baseURL: 'https://europe-west1-clinicamadrid.cloudfunctions.net/conversation'
+      #baseURL: 'https://europe-west1-clinicamadrid.cloudfunctions.net/conversation'
+      baseURL: 'https://6hezv0rkr4.execute-api.eu-west-3.amazonaws.com/Prod/conversation'
       directEndpoint: true
       models:
         default: ['Clinica Madrid']
